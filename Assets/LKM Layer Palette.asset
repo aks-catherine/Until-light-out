@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c509dbaa7b6f416409e3195321a2187e, type: 3}
+  m_Name: LKM Layer Palette
+  m_EditorClassIdentifier: 
+  PaletteLayers:
+  - {fileID: 8574412962073106934, guid: 46ac89f356bea6041996c4d0bbddf3f3, type: 2}
+  - {fileID: 8574412962073106934, guid: b073955d120e0ee48a8ed920d470da87, type: 2}
+  - {fileID: 8574412962073106934, guid: 4fb323479286b2248928c0324d1798c8, type: 2}
+  - {fileID: 8574412962073106934, guid: d59c26354ba7ad54da07695f3c5ab8ab, type: 2}
+  - {fileID: 8574412962073106934, guid: a0cf472b71e27ed44acc1649cf08f969, type: 2}
