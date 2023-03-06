@@ -24,8 +24,7 @@ public class cameraEffects : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        alpha += 0.1f + Time.deltaTime * 0.01f;
-
+        
 
         if (Input.GetKeyDown("space"))
         {
@@ -35,11 +34,8 @@ public class cameraEffects : MonoBehaviour
                 Black = false;
             }
             else
-            {
-                
-
-
-                image.color += new Color(image.color.r, image.color.g, image.color.b, 0.1f);
+            {  
+                image.color += new Color(image.color.r, image.color.g, image.color.b, 0.0f);
                 Black = true;
 
             }
