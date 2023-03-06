@@ -7,31 +7,22 @@ using UnityEngine.Rendering.Universal;
 
 public class Vagnettescript : MonoBehaviour
 {
-    
-    public Slider bloomSld;
+
     public Volume volume;
     private Bloom thisBloom;
+    private Vignette thisVignette;
 
-    public void BloomCtrl()
+
+    private void Start()
     {
         VolumeProfile proflile = volume.sharedProfile;
-
-
         volume.profile.TryGet(out thisBloom);
-        thisBloom.intensity.value = bloomSld.value;
-
-        if (bloomSld.value == 0)
-            thisBloom.active = false;
-        else
-            thisBloom.active = true;
+        volume.profile.TryGet(out thisVignette);
     }
-
     private void Update()
     {
-        if (Input.GetKeyDown("space"))
-        {
-            BloomCtrl();
-        }
+        //thisVignette.intensity.value = Mathf.Sin(Time.realtimeSinceStartup) * 10f;
+        
     }
 
 }
